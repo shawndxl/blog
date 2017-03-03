@@ -1,46 +1,42 @@
  Web 动画的几种方式
 ---------------
 
-CSS animation
+1、CSS animation
 
 * [合并图片切换background-position](http://jhtmls.com/h5animation/)
 * [切换background-image的LESS函数模板](http://codepen.io/dongxl/pen/RRzvqd)
 
 
-CSS transition
+2、CSS transition
 
 * [codenpen - 一个vue消息滚动栏实例](http://codepen.io/dongxl/pen/ozKpra)
 
 
-Jquery API
+3、Jquery API
 
-JS - setTimeout\setInterval
+4、JS - setTimeout\setInterval
 
-JS - requestAnimationFrame
+5、JS - requestAnimationFrame
 
 * [实战： CSS transition + requestAnimationFrame 模拟探探-待补充]()
 * [参考：MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
 * [参考：张鑫旭](http://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/)
 
-
-SVG
+6、SVG
 
 * [my demos](https://github.com/shawndxl/svg-demos)
 
-
-Canvas
-
-
-[flash转换H5动画](https://github.com/TencentOpen/Fanvas)
-
-
-WebGL
-
-
-GreenSock
+7、GreenSock
 
 * [codepen - GreenSock Cubic Bezier 测试1](http://codepen.io/dongxl/pen/GZyGdR)
 * [codepen - GreenSock Cubic Bezier 测试2](http://codepen.io/dongxl/pen/YqawZZ)
+
+8、[flash转换H5动画](https://github.com/TencentOpen/Fanvas)
+
+9、Canvas
+
+10、WebGL
+
 
 ### 动画的三要素
 
