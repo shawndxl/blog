@@ -31,7 +31,9 @@
 * [codepen - GreenSock Cubic Bezier 测试1](http://codepen.io/dongxl/pen/GZyGdR)
 * [codepen - GreenSock Cubic Bezier 测试2](http://codepen.io/dongxl/pen/YqawZZ)
 
-8、[flash转换H5动画](https://github.com/TencentOpen/Fanvas)
+8、flash转换H5动画
+
+* [GitHub - Fanvas](https://github.com/TencentOpen/Fanvas)
 
 9、Canvas
 
