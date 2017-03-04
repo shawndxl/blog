@@ -4,7 +4,7 @@
 * [hashchange](https://developer.mozilla.org/zh-CN/docs/Web/Events/hashchange)
 * [event](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Events/Creating_and_triggering_events#The_old-fashioned_way)
 
-可用于hybrid app中app向前端页面传递数据
+可用于hybrid app中app向前端页面传递数据，其实原理就是监听事件在触发时事件本身会被传递进来，那么把信息写进事件对象，这样监听到的事件即可以读取到信息
 
 ```js
 // 前端先添加监听
