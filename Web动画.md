@@ -18,7 +18,8 @@
 
 5、JS - requestAnimationFrame
 
-* [实战： CSS transition + requestAnimationFrame 模拟探探-待补充]()
+* [实战：Tween.js + requestAnimationFrame 实现常见动画效果]()
+* [实战：CSS transition + requestAnimationFrame 模拟探探-待补充]()
 * [参考：MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
 * [参考：张鑫旭](http://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/)
 
@@ -37,14 +38,9 @@
 
 9、Canvas
 
+
 10、WebGL
 
-
-### 动画的三要素
-
-* 时间
-* 路径
-* 帧数
 
 
 ### 老朋友 Bezier Curve
