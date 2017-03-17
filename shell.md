@@ -14,7 +14,7 @@
 
 ### redis
 
-### mkdir touch vi -d -q -!q -wq // gitlab的教训告诉我们最好不要学习删除指令
+### mkdir touch vi -d -q -!q -wq // always remember the lesson of gitlab
 
 ### sudo
 
@@ -24,7 +24,7 @@
 实例 读取nginx日志, 计算近一分钟内访问某地址的平均响应时间，并拼接key存储在redis中，供后续项目取key值并展现在页面中用于实时监控
 ---------
 
-> 实例-nginx log：10.33.**.*** - - [15/Feb/2017:14:19:48 +0800] "GET /Share/Link/id/1000/red_num/1 HTTP/1.0" section.baidu.com 200 2015 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; MI MAX MIUI/V7.3.12.0.MBCCNDC)" "139.214.254.44""-" "200" "unix:/dev/shm/php7-cgi.sock" "0.045" "0.041"
+> 10.33.**.*** - - [15/Feb/2017:14:19:48 +0800] "GET /Share/Link/id/1000/red_num/1 HTTP/1.0" section.baidu.com 200 2015 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; MI MAX MIUI/V7.3.12.0.MBCCNDC)" "139.214.254.44""-" "200" "unix:/dev/shm/php7-cgi.sock" "0.045" "0.041"
 
 ```shell
 log_path=/data/logs/getShareLink.log
