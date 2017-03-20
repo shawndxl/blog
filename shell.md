@@ -4,7 +4,7 @@
 
 ### grep
 
-### `` 变量
+### `` $ > >> 
 
 ### nginx
 
@@ -20,6 +20,19 @@
 
 ### yum
 
+
+实例 每过一定时间执行一次脚本，并且输出日志，同时删除掉已经生成的无用的文件
+---------
+
+```shell
+# crontab filename push.sh
+# */5 * * * * sh /push.sh # 每五分钟执行
+# */30 * * * * sh /push.sh # 每三十分钟执行
+
+cd /data/script/wechat_office/
+/usr/local/php7/bin/php index.php >> push.log
+rm -f /data/script/wechat_office/img/*.png
+```
 
 实例 读取nginx日志, 计算近一分钟内访问某地址的平均响应时间，并拼接key存储在redis中，供后续项目取key值并展现在页面中用于实时监控
 ---------

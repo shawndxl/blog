@@ -5,9 +5,9 @@ get
 
 post
 
-[hashchange](https://developer.mozilla.org/zh-CN/docs/Web/Events/hashchange)
+hashchange [@see MDN](https://developer.mozilla.org/zh-CN/docs/Web/Events/hashchange)
 
-[event](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Events/Creating_and_triggering_events#The_old-fashioned_way)
+event [@see MDN](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Events/Creating_and_triggering_events#The_old-fashioned_way)
 
 > 可用于hybrid app中app向前端页面传递数据，其实原理就是监听事件在触发时事件本身会被传递进来，那么把信息写进事件对象，这样监听到的事件即可以读取到信息
 
@@ -24,13 +24,13 @@ event._msg = 'your msg or json';
 window.dispatchEvent(event);
 ```
 
-[postMessage](https://www.smashingmagazine.com/2014/11/styling-and-animating-svgs-with-css/#style-cascades)
+postMessage [@see MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)
 
 > 可用于向页面中内置的iframe层传递消息
 
 img请求
 
-> 多用于写日志，见[h5tracker](https://github.com/shawndxl/h5tracker)
+> 多用于写日志，[@see h5tracker](https://github.com/shawndxl/h5tracker)
 
 
 hybrid app开发时自定义协议
