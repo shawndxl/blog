@@ -123,6 +123,13 @@ Array.prototype.push.apply(b, c); // b是this主体，执行了之后数组b发�
 // [0, 2, 4, 1, 3, 5]
 ```
 
+> 其实还有另外一种情况就是仅仅为了用apply来展开数组作为参数
+
+```js
+Math.max(14, 3, 77);
+Math.max.apply(null, [14, 3, 77]);
+```
+
 <details>
 <summary>"箭头函数没有this" 对apply、call、bind的影响</summary>
 
