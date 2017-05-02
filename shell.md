@@ -70,3 +70,6 @@ echo '值: '$request_time_avg
 
 redis-cli -h 127.0.0.1 -p 6379 -n 0 setex $rediskey $exp $request_time_avg
 ```
+
+
+* [参考](http://www.runoob.com/linux/linux-shell.html)
