@@ -63,7 +63,7 @@ Promise.resolve(step1)
 
 Generator 函数
 
-> 看效果：使函数可以暂停
+> 使函数可以暂停
 
 ```js
 var a = (function* () {
@@ -78,7 +78,7 @@ a.next(); // end
 a.next(); // undefined
 ```
 
-> 实例
+> 测试
 
 ```js
 var a = (function* (x, y) {
