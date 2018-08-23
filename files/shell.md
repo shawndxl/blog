@@ -71,5 +71,31 @@ echo '值: '$request_time_avg
 redis-cli -h 127.0.0.1 -p 6379 -n 0 setex $rediskey $exp $request_time_avg
 ```
 
+* 持续集成 / CI
+
+> Jenkins 由本地gitlab 添加钩子，完成后自动向ci发起通知，并添加system账号为master权限，ci新建该项目并接受该gitlab地址的项目。build when a change is pushed to gitlab.
+
+栗子
+
+```shell
+export PATH=$PATH:/usr/local/bin:/usr/local/git/bin
+
+# 安装依赖
+
+bower install
+npm install
+
+if [ ${GIT_BRANCH} == "origin/master" ]
+then
+  npm run develop
+elif [ ${GIT_BRANCH} == "origin/online" ]
+then
+	# 可以以此设置线上线下不同配置，以此保护关键信息
+  yes | cp -R /home/webdir/ci/deploy-10.**.**.**/**/* ./		
+
+  npm run online
+fi
+```
+
 
 * [参考](http://www.runoob.com/linux/linux-shell.html)

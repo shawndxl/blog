@@ -41,11 +41,8 @@ Web 动画的几种方式
 
 10、WebGL
 
-> Six degrees of freedom
-
-> three.js
-
 > scene camera renderer
+> three.js WebVR
 
 * [一个简单的例子]()
 * [3D云层]()
